@@ -1,0 +1,12 @@
+version: '3.6'
+
+services:
+  whoami:
+    image: localhost/cyberquest_2023_round2/ctf-whoami:latest
+    restart: unless-stopped
+    ports:
+      - 53499:53499
+      - 25998:25998
+    environment:
+      - BACKEND_PORT=53499
+      - PROXY_PORT=25998

@@ -1,0 +1,8 @@
+FROM alpine:latest
+
+RUN apk --no-cache add gcc make libc-dev
+
+COPY src/ /src/
+
+RUN cd /src && \
+    make

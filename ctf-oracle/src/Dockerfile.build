@@ -1,0 +1,6 @@
+FROM rockylinux:9.2
+
+RUN dnf install -y gcc make
+COPY . /src
+
+RUN cd /src && make

@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  hereott:
+    image: localhost/cyberquest_2023/ctf-here_ott
+    restart: unless-stopped
+    ports:
+      - 48490:48490
+    environment:
+      - BACKEND_PORT=48490

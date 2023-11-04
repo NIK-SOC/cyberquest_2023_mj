@@ -1,0 +1,6 @@
+FROM ghcr.io/void-linux/void-glibc:20231003R1
+
+RUN xbps-install -Syu -y gcc make
+COPY . /src
+
+RUN cd /src && make

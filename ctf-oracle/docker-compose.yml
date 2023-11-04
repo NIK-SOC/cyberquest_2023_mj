@@ -1,0 +1,12 @@
+version: '3.6'
+
+services:
+  oracle:
+    image: localhost/cyberquest_2023_round2/ctf-oracle:latest
+    restart: unless-stopped
+    ports:
+      - 23183:23183
+    environment:
+      - CHALLENGE_PORT=23183
+    ulimits:
+      nproc: 700

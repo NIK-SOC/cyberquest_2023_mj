@@ -1,0 +1,12 @@
+version: '3.6'
+
+services:
+  delphi:
+    image: localhost/cyberquest_2023_round2/ctf-delphi:latest
+    restart: unless-stopped
+    ports:
+      - 55364:55364
+    environment:
+      - CHALLENGE_PORT=55364
+    ulimits:
+      nproc: 700

@@ -1,0 +1,8 @@
+FROM docker.io/node:current-alpine3.18 as frontend-builder
+
+COPY . /build
+WORKDIR /build
+
+RUN npm install
+
+CMD ["npm", "run", "build"]

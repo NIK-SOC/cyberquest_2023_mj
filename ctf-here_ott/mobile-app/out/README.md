@@ -1,0 +1,1 @@
+The app-release.apk file here might won't be the latest always since it takes a fairly long time to assemble a release. Build it manually using the `build.sh build` command a few directories above this one.

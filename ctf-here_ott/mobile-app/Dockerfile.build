@@ -1,0 +1,13 @@
+FROM docker.io/instrumentisto/flutter:latest AS mobile-app-builder
+
+RUN adduser --disabled-password --gecos '' builder && chown -R builder:builder /usr/local/flutter && chown -R builder:builder /opt/android-sdk-linux
+# this took way too long to figure, /usr/local/flutter/packages/flutter_tools doesn't get correct permissions
+USER builder
+
+COPY --chown=builder:builder hereott/ /build/hereott/
+COPY --chown=builder:builder flutter_okhttp/ /build/flutter_okhttp/
+COPY --chown=builder:builder out/upload-keystore.jks /build/out/
+WORKDIR /build/hereott
+RUN flutter config --no-analytics >/dev/null 2>&1 && flutter --disable-telemetry >/dev/null 2>&1
+
+CMD ["flutter", "build", "apk", "--release", "--obfuscate", "--split-debug-info=/tmp/hereott-symbols"]

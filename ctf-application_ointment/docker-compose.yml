@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  application_ointment:
+    image: localhost/cyberquest_2023/ctf-application_ointment
+    restart: unless-stopped
+    ports:
+      - 1337:1337
+      - 20662:8080
+    

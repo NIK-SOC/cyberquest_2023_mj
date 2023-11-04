@@ -1,0 +1,346 @@
+/*!
+ * Theme Name: Analog
+ * @package: AnaLog
+ * 
+ * CSS Device
+ */
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+@media screen and (max-width: 1024px) {
+
+	#page {
+		width: 100%;
+		padding: 0 !important;
+		box-sizing: border-box;
+		margin: 0;
+	}
+
+}
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+@media screen and (max-width: 768px) {
+
+
+	/**
+	 * Links
+	 */
+	
+    a:hover, a:active, a:focus, a:link {
+        background-color: transparent !important;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-tap-highlight-color: transparent; /* For some Androids */
+    }
+
+    /** Inputs **/
+
+    textarea, 
+    select,
+    .page-content input.search-field,
+    .page-content input.search-submit,
+    .search-box input.search-field, 
+    .search-box input.search-submit,
+    .widget input.search-field, 
+    .widget input.search-submit,
+    .comment-form input[type="email"], 
+    .comment-form input[type="url"],
+    .comment-form input[type="text"],
+    .comment-form input[type="submit"],
+    .post-password-form input[type="password"],
+    .post-password-form input[type="submit"] {
+        width: 100% !important;
+    }
+
+    .page-content .search-field,
+    .search-box .search-field, 
+    .widget .search-field, 
+    .post-password-form input[type="password"] {
+        margin-bottom: 5px;
+    }
+
+    /**
+     * Layout 
+     */
+    
+    .site-content {
+        overflow: hidden;
+        margin-top: 0;
+		width: 100%;
+		border-left: 0;
+		border-right: 0;
+    }
+    
+    .site-header.fixed-h {
+		top: 0 !important;
+	}
+	
+	.site-branding {
+		margin-bottom: 0;
+	}
+    
+	.branding-group.has-custom-logo {
+     	height: auto !important;   
+    }
+	
+	.main-navigation {
+		width: 100%;
+		border-left: 0;
+		border-right: 0;
+		margin-top: 0 !important;
+		border-bottom: 0;
+		border-top: 0;
+	}
+
+    #primary, #secondary {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+	
+	#primary {
+		border-left:0;
+		border-right:0;
+	}
+
+    /**
+     * Site title
+     */
+
+    .site-title {
+        font-size: 10vw;
+    }
+
+    /**
+     * Menu
+     */
+     
+    .menu-toggle {
+		display: block;
+		margin-bottom:0;
+	}
+
+    .menu-toggle .button-menu {
+        display: none;
+    }
+    
+    .main-navigation .menu {
+		display: none;
+	}
+
+    .main-navigation .menu li {
+        display: block;
+        float: none;
+    }
+
+    .main-navigation .menu ul {
+        position: relative;
+        float: none;
+        left: auto !important;
+        top: 0 !important;
+        box-shadow: none;
+        display: none;
+    }
+    
+    .main-navigation .menu > li > ul {
+		left: auto !important;
+	}
+
+    .main-navigation .menu ul:before {
+        top: -12px;
+    }
+
+    .main-navigation .menu ul > li.menu-item-has-children > a:after {
+        content: "\f347" !important;
+    }
+
+    .main-navigation .menu ul li {
+        margin-top: -1px;
+    }
+
+    .main-navigation .menu ul > li ul {
+        padding-top: 0;
+        margin-top: 15px;
+        border-left: 3px solid #ddd;
+        border-radius: 0;
+        left: auto !important;
+    }
+
+    .main-navigation .menu ul > li ul:before {
+        content: unset;
+    }
+
+    .main-navigation .menu li a:hover, 
+    .main-navigation .menu li a:focus, 
+    .main-navigation .menu li a:focus-within, 
+    .main-navigation .menu li a:active,
+    .main-navigation .menu li a:visited {
+        background-color: transparent !important;
+    }
+	
+	/**
+	 * Widget
+	 */
+	#secondary .widget {
+        padding: 20px 0;
+		border-left:0;
+		border-right: 0;
+		margin-bottom:0;
+		border-top:0;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	#secondary .widget .widget-title, #secondary .widget .widgettitle {
+		margin-right:-20px;
+		margin-left:-20px;
+		margin-top:-20px;
+	}
+	
+	/**
+	 * Content
+	 */
+	 
+	.sticky {
+		margin-top: 20px;
+		margin-left:0 !important;
+		margin-right:0 !important;
+	}
+	
+	.sticky-message {
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-top: 0;
+	}
+	
+	.page-title {
+		margin-left:0;
+		margin-right:0;
+	}
+	
+	article.post, article.page, .post-navigation {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.navigation.pagination {
+		margin:0;
+	}
+
+    /**
+     * Comments
+     */
+	
+	.comments-area {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom:40px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+    .comment-list li .children {
+        margin-left: -10px;
+    }
+
+	.comment-list li .comment-meta,
+    .comment-list li .comment-meta .avatar {
+        margin-top: -34px;
+    }
+
+	.comment-list li .comment-author,
+    .comment-list li .comment-meta .avatar {
+        font-size: .888em;
+    }
+
+    .comment-list li .comment-author .avatar {
+        width: 44px !important;
+        height: auto;
+        margin-top: -7px !important;
+    }
+
+    .comment-list li .comment-metadata {
+        top: 38px;
+    }
+
+    .comment-list .depth-6 .comment-metadata {
+        top: 42px;
+        font-size: .555em;
+    }
+	
+	.comment-list .depth-8 .comment-metadata a {
+		letter-spacing:-1px;
+	}
+    
+    /** Respond **/
+
+    .comment-respond {
+		margin-top: 0;
+        margin-right: 0;
+    }
+
+    .comment-respond .comment-reply-title {
+        text-align: center;
+		margin-top:8px;
+    }
+    
+    .comment-respond .comment-reply-title a {
+        position: static;
+        top: auto;
+        left: auto;
+        display: block;
+        text-align: center;
+        font-size: .888em;
+    }
+    
+    /** Comment form **/
+
+    .comment-form p {
+        margin-bottom: 1em;
+    }
+
+    .comment-form input[type="submit"] {
+        margin-top: 1.2em;
+    }
+    
+    
+
+    /** Footer **/
+	
+	.site-footer {
+		margin: 0;
+		width: 100%;
+		border:0;
+		padding: 20px;
+	}
+	
+	.site-footer .my-site-cp {
+		margin-top: -20px;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+    .sep {
+        display: block;
+        text-indent: -999px;
+        height: 0;
+    }
+}
+
+/************************************************************************************
+smaller than 600
+*************************************************************************************/
+@media screen and (max-width: 600px) {
+    
+    body.force-text-hyphens .entry-content, 
+    body.force-text-hyphens .comment-content, 
+    body.force-text-hyphens .archive-description, 
+    body.force-text-hyphens .author-post-box, 
+    body.force-text-hyphens .entry-summary {
+        text-align:initial !important;
+        hyphens:none !important;
+    }
+    
+}

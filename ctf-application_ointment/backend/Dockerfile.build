@@ -1,0 +1,6 @@
+FROM docker.io/golang:alpine
+
+COPY . /build
+WORKDIR /build
+
+CMD ["go", "build", "-o", "/tmp/ointment", "."]

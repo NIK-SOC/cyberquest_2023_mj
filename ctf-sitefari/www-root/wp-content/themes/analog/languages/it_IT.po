@@ -1,0 +1,556 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: XSimply\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-10 15:33+0000\n"
+"PO-Revision-Date: 2022-04-06 13:39+0000\n"
+"Last-Translator: iljester\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-4.9.20\n"
+"X-Poedit-KeywordsList: ;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ."
+
+#. 2: label, list of categories.
+#. 2: label, list of tags.
+#: inc/template-tags.php:112 inc/template-tags.php:120
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: inc/template-functions.php:87 inc/template-functions.php:209
+#, php-format
+msgid "%sAbout %s%s"
+msgstr "%sSu il %s%s"
+
+#: image.php:66
+#, php-format
+msgid "%sSize%s"
+msgstr "%sDimensione%s"
+
+#: inc/template-functions.php:111 inc/template-functions.php:117
+#: inc/template-functions.php:211
+#, php-format
+msgid "%sSubscribe Feeds%s"
+msgstr "%sSottoscrivi Feeds%s"
+
+#: inc/template-tags.php:290
+#, php-format
+msgid "%sTop%s"
+msgstr "%sSu%s"
+
+#: inc/template-functions.php:98
+#, php-format
+msgid "%sView all posts%s"
+msgstr "%sVedi tutti i post%s"
+
+#: functions.php:144
+msgid "Add widgets here."
+msgstr "Aggiungi i widget qui."
+
+#: inc/customizer.php:446
+msgid ""
+"Allowed tags: strong, em. Press \"Enter\" to wrap up. Use {copy} for &copy;, "
+"{year} for current year, {blogname} for blog name."
+msgstr ""
+"Tag permessi: strong, em. Premi \"Invio\" per andare a capo. Usa {copy} per "
+"&copy;, {year} per l'anno corrente, {blogname} per il nome del blog."
+
+#. Name of the theme
+msgid "AnaLog"
+msgstr "AnaLog"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:108
+msgid "Archived:"
+msgstr "Archiviato:"
+
+#: inc/customizer.php:333
+msgid "Author Post Box"
+msgstr "Box Autore Articolo"
+
+#: inc/customizer.php:280
+msgid "Background solid color"
+msgstr "Sfondo colore solido"
+
+#: inc/customizer.php:519
+msgid ""
+"Before using any of the styles below, check that the font supports it. "
+"Default: Normal, Normal Italic, Bold, Bold Italic."
+msgstr ""
+"Prima di utilizzare gli stili di sotto, verifica che il carattere li "
+"supporti. Default: Normale, Normale Italico, Grassetto, Grassetto Italico"
+
+#: inc/customizer.php:505
+msgid "Big"
+msgstr "Grande"
+
+#: inc/customizer.php:54
+msgid "Bold"
+msgstr "Grassetto"
+
+#: inc/customizer.php:55
+msgid "Bold Italic"
+msgstr "Grassetto Italico"
+
+#: inc/customizer.php:498
+msgid "Change the font size according to your needs."
+msgstr "Cambia la dimensione del carattere secondo le tue necessità."
+
+#: inc/customizer.php:482
+#| msgid ""
+#| "Choose your font (default: Titillium Web). Note: System Ui is the font "
+#| "used in the user's operating system/browser."
+msgid ""
+"Choose your font (default: IBM Plex Mono). Note: System Ui is the font used "
+"in the user's operating system/browser."
+msgstr ""
+"Scegli il tuo carattere (predefinito: IBM Plex Mono). Nota: System UI è il "
+"font utilizzato nel sistema operativo/browser dell'utente."
+
+#: comments.php:83
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s commento su &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s commenti su &ldquo;%2$s&rdquo;"
+
+#: inc/customizer.php:162
+msgid "Content"
+msgstr "Contenuto"
+
+#: inc/customizer.php:94
+msgid "Content link color"
+msgstr "Colore link del contenuto"
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:43
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continua a leggere<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/customizer.php:334
+msgid "Display author box in post bottom."
+msgstr "Visualizza il box autore in fondo all'articolo."
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:35 inc/template-tags.php:149
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Modifica <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/customizer.php:379
+msgid "Enable"
+msgstr "Abilita"
+
+#: inc/customizer.php:409
+msgid "Exclude target ico link"
+msgstr "Esclusione icone link"
+
+#: inc/customizer.php:233
+msgid "Fixed Header"
+msgstr "Testata fissa"
+
+#: inc/customizer.php:481
+msgid "Font"
+msgstr "Carattere"
+
+#: inc/customizer.php:497
+msgid "Font Size"
+msgstr "Dimensione carattere"
+
+#: inc/customizer.php:518
+msgid "Font Styles"
+msgstr "Stili del Carattere"
+
+#: inc/customizer.php:177
+msgid "Footer"
+msgstr "Piè di Pagina"
+
+#: inc/customizer.php:301
+msgid ""
+"Force text's hyphenation. The text will be justified and divided into "
+"syllables like in a book."
+msgstr ""
+"Forza sillabazione. Il testo verrà giustificato e sillabato come in un libro."
+" "
+
+#: inc/customizer.php:172
+msgid "Header"
+msgstr "Testata"
+
+#: inc/customizer.php:70
+msgid "Heads background color"
+msgstr "Colore di sfondo delle testate"
+
+#: inc/customizer.php:76
+msgid "Heads main text color"
+msgstr "Colore del testo nelle testate"
+
+#: inc/customizer.php:464
+msgid "Hide search field in the footer."
+msgstr "Nascondi il campo ricerca nel footer del sito."
+
+#. Author URI of the theme
+msgid "http://www.iljester.com"
+msgstr "http://www.iljester.com"
+
+#. URI of the theme
+#| msgid "http://www.iljester.com/portfolio/analogic"
+msgid "http://www.iljester.com/portfolio/analog"
+msgstr "http://www.iljester.com/portfolio/analog"
+
+#: inc/customizer.php:314
+msgid "Hyphenate text"
+msgstr "Sillaba testo"
+
+#: inc/customizer.php:365
+msgid "Ico Link"
+msgstr "Icona del link"
+
+#: inc/customizer.php:106
+msgid "Icon external link color"
+msgstr "Icona dei link esterni"
+
+#: inc/customizer.php:100
+msgid "Icon internal link color"
+msgstr "Icona dei link interni"
+
+#. Author of the theme
+msgid "Il Jester"
+msgstr "Il Jester"
+
+#: inc/customizer.php:410
+msgid ""
+"Insert, separate by comma, classes or IDs, to exclude ico link from certain "
+"URLs. Use reset button to restore defaults."
+msgstr ""
+"Inserisci, separati da virgola, classi o ID, per rimuovere l'icona del link. "
+"Usa il tasto reset per ripristinare i valori di default."
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Non ho trovato nulla in questa posizione. Perché non provi con uno dei link "
+"sotto o la funzione ricerca?"
+
+#: template-parts/content-none.php:42
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Sembra che non possiamo trovare quello che stai cercando. Forse la funzione "
+"ricerca può aiutare."
+
+#: inc/customizer.php:234
+msgid "Keep header (branding and menu) fixed when you scroll the page."
+msgstr "Mantieni fissa la testata (brand e menu) quando scorri la pagina."
+
+#. %s: post title
+#: inc/template-tags.php:132
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Lascia un commento<span class=\"screen-reader-text\"> su %s</span>"
+
+#: inc/customizer.php:48
+#| msgid "Night"
+msgid "Light"
+msgstr "Leggero"
+
+#: inc/customizer.php:49
+msgid "Light Italic"
+msgstr "Leggero Italico"
+
+#: inc/template-tags.php:117
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#: inc/customizer.php:52
+msgid "Medium"
+msgstr "Medio"
+
+#: inc/customizer.php:53
+msgid "Medium Italic"
+msgstr "Medio Italico"
+
+#: header.php:33
+msgid "Menu"
+msgstr "Menu"
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr "Le Categorie più usate"
+
+#: comments.php:51
+msgid "Next Comments"
+msgstr "Commenti successivi"
+
+#: index.php:40 search.php:43 archive.php:46
+msgid "Next Page"
+msgstr "Pagina successiva"
+
+#: single.php:31
+msgid "Next Post"
+msgstr "Post successivo"
+
+#: single.php:32
+msgid "Next post:"
+msgstr "Post successivo:"
+
+#: inc/customizer.php:50 inc/customizer.php:504
+msgid "Normal"
+msgstr "Normale"
+
+#: inc/customizer.php:51
+msgid "Normal Italic"
+msgstr "Normale Italico"
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr "Non ho trovato nulla"
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un commento su &ldquo;%1$s&rdquo;"
+
+#: inc/customizer.php:394
+msgid "Only external links"
+msgstr "Solo link esterni"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! La pagina non è stata trovata."
+
+#: index.php:41 image.php:54 search.php:44 archive.php:47
+msgid "Page"
+msgstr "Pagina"
+
+#: image.php:50 template-parts/content-page.php:22
+#: template-parts/content.php:54
+msgid "Pages:"
+msgstr "Pagine:"
+
+#: single.php:24
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><br/><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+"<span class=\"meta-nav\">Pubblicato in</span><br/><span class=\"post-title\">"
+"%title</span>"
+
+#: image.php:87
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><br><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+"<span class=\"meta-nav\">Pubblicato in</span><br><span class=\"post-title\">"
+"%title</span>"
+
+#. %s: post author.
+#: inc/template-tags.php:89
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "da %s"
+
+#. %s: post date.
+#: inc/template-tags.php:73
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Pubblicato il %s"
+
+#: inc/template-tags.php:288
+#, php-format
+msgid "Powered by %s"
+msgstr "Motorizzato %s"
+
+#: comments.php:50
+msgid "Previous Comments"
+msgstr "Commenti precedenti"
+
+#: index.php:39 search.php:42 archive.php:45
+msgid "Previous Page"
+msgstr "Pagina precedente"
+
+#: single.php:34
+msgid "Previous Post"
+msgstr "Post precedente"
+
+#: single.php:35
+msgid "Previous post:"
+msgstr "Post precedente:"
+
+#: functions.php:50
+msgid "Primary"
+msgstr "Primario"
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Pronto per pubblicare il tuo primo post? <a href=\"%1$s\">Parti da qui</a>."
+
+#: inc/customizer.php:281
+msgid "Remove texture from the background."
+msgstr "Rimuovi la trama dallo sfondo."
+
+#: inc/customizer.php:429
+msgid "Reset Values"
+msgstr "Ripristina Valori"
+
+#: inc/customizer.php:463
+msgid "Search Field"
+msgstr "Campo di Ricerca"
+
+#. %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Risultato della ricerca per: %s"
+
+#: functions.php:51
+msgid "Secondary (no hierarchical entries)"
+msgstr "Secondario (non elementi gerarchici)"
+
+#: inc/customizer.php:347
+msgid "Show Author Box"
+msgstr "Mostra Box Autore"
+
+#: inc/customizer.php:215
+msgid "Show only logo"
+msgstr "Mostra solo il logo"
+
+#: functions.php:142
+msgid "Sidebar"
+msgstr "Barra Laterale"
+
+#: inc/customizer.php:88
+msgid "Site description color"
+msgstr "Colore della descrizione"
+
+#: inc/customizer.php:445
+msgid "Site Info"
+msgstr "Info del Sito"
+
+#: inc/customizer.php:82
+msgid "Site title color"
+msgstr "Colore del titolo"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Salta il contenuto"
+
+#: inc/customizer.php:503
+msgid "Small"
+msgstr "Piccolo"
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Spiacente, ma non ho trovato nulla con i tuoi termini di ricerca. Per favore,"
+" prova di nuovo con parole chiavi differenti."
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:116
+msgid "Tagged:"
+msgstr "Etichettato:"
+
+#: inc/template-tags.php:109
+msgctxt "tags item separator"
+msgid ", "
+msgstr ", "
+
+#: inc/customizer.php:300
+msgid "Text Hyphenation"
+msgstr "Sillabazione Testo"
+
+#. Description of the theme
+msgid ""
+"The AnaLog theme is a vague retro theme that evokes the old typewriter. A "
+"clean and linear theme, highly customizable in colors. Suitable for all "
+"types of site, but essentially oriented for blogging."
+msgstr ""
+"Il tema AnaLog è un vago tema retrò che evoca la vecchia macchina da "
+"scrivere. Un tema pulito e lineare, altamente personalizzabile nei colori. "
+"Adatto a tutti i tipi di sito, ma essenzialmente orientato al blogging."
+
+#: inc/customizer.php:395
+msgid "The icon will be shown only for external links."
+msgstr "Le icone saranno mostrato solo per i link esterni."
+
+#: inc/customizer.php:187
+#, php-format
+msgid ""
+"The image is required to have a minimum height of %s. A smaller height could "
+"create a grain of the logo."
+msgstr ""
+"L'immagine deve avere un'altezza minima di %s. Un'altezza inferiore potrebbe "
+"creare un logo sfocato."
+
+#: inc/template-tags.php:289
+#, php-format
+msgid "Theme %s by %s"
+msgstr "Tema %s di %s"
+
+#: inc/customizer.php:216
+msgid "Title and description will be hidden."
+msgstr "Titolo e descrizione saranno nascosti."
+
+#. %1$s: smiley
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Prova a cercare negli archivi mensili. %1$s"
+
+#: inc/customizer.php:167
+msgid "Typography"
+msgstr "Tipografia"
+
+#: image.php:69
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Dimensione piena"
+
+#: inc/customizer.php:366
+msgid "Will be shown a ico link in every link in content post or page."
+msgstr "Mostrerà un'icona in ogni link del contenuto del post o della pagina."
+
+#: inc/customizer.php:677
+msgid "You are trying to use an html tag not allowed!"
+msgstr "Stai cercando di usare un tag html non permesso!"
+
+#: inc/customizer.php:380
+msgid ""
+"You can choose a different color for the internal and external links in the "
+"colors section."
+msgstr ""
+"Puoi scegliere colori differenti per link interni ed esterni nella sezione "
+"colori."
+
+#: inc/customizer.php:657
+msgid "You cannot show only logo without a logo!"
+msgstr "Non puoi mostrare solo il logo senza un logo!"

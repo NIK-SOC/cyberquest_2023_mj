@@ -1,0 +1,8 @@
+version: '3.6'
+
+services:
+  sitefari:
+    image: localhost/cyberquest_2023_round2/ctf-sitefari:latest
+    restart: unless-stopped
+    ports:
+      - 45619:8080

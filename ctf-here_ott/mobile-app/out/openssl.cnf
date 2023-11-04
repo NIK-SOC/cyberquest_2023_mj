@@ -1,0 +1,32 @@
+[req]
+default_bits = 2048
+default_md = sha256
+prompt = no
+encrypt_key = no
+distinguished_name = dn
+x509_extensions = v3_req
+
+[dn]
+C = MO
+O = cyberquest.honeylab.hu
+CN = hereott.honeylab.hu
+ST = Meseorszag
+OU = HereOtt
+
+[v3_req]
+basicConstraints = CA:false
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = 10.10.1.11
+DNS.2 = 10.10.2.11
+DNS.3 = 10.10.3.11
+DNS.4 = 10.10.4.11
+DNS.5 = 10.10.5.11
+DNS.6 = 10.10.6.11
+DNS.7 = 10.10.7.11
+DNS.8 = 10.10.8.11
+DNS.9 = 10.10.9.11
+DNS.10 = hereott.honeylab.hu

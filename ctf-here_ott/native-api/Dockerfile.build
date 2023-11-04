@@ -1,0 +1,7 @@
+FROM rust:1-alpine as builder
+
+COPY . /build
+
+WORKDIR /build
+
+RUN apk add g++ && cargo install wasm-pack && wasm-pack build --target web --release
